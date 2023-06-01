@@ -1,0 +1,178 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "ancient whispers",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": [
+                        "help with Ancient Whispers",
+                        "open Ancient Whispers"
+                    ]
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GetHaikuIntent",
+                    "slots": [
+                        {
+                            "name": "topic",
+                            "type": "Topic"
+                        }
+                    ],
+                    "samples": [
+                        "get me a haiku",
+                        "read me a haiku",
+                        "Alexa tell Ancient Whispers to read me a haiku",
+                        "Alexa ask Ancient Whispers to read me a haiku",
+                        " ancient whispers give me a poem about {topic}",
+                        "tell ancient whispers to get me a haiku",
+                        "tell me a haiku",
+                        "give me  ancient whispers to give me a haiku",
+                        " ancient whispers give me a poem",
+                        "get me  ancient whispers to give me a haiku about {topic}",
+                        "get me  ancient whispers to tell me a haiku about {topic}",
+                        " ancient whispers get me a poem about {topic}",
+                        "tell me  ancient whispers and tell me a haiku about {topic}",
+                        "tell me  ancient whispers and tell me a poem about {topic}",
+                        "alexa ask  ancient whispers to give me a poem about {topic}",
+                        "tell me  ancient whispers and tell me a haiku",
+                        "can you tell me  ancient whispers to tell me a poem about {topic}",
+                        " ancient whispers i want a poem",
+                        "give me  ancient whispers and tell me a haiku",
+                        "alexa ask  ancient whispers to tell me a haiku about {topic}",
+                        "alexa tell  ancient whispers to read me a poem about {topic}",
+                        "show me  ancient whispers to tell me a haiku about {topic}",
+                        "can you get me  ancient whispers to tell me a haiku about {topic}",
+                        "get me  ancient whispers and tell me a haiku",
+                        "tell me  ancient whispers to read me a haiku",
+                        "get me  ancient whispers to give me a poem",
+                        "tell me  ancient whispers and tell me a poem",
+                        "tell me  ancient whispers to give me a poem",
+                        "show me  ancient whispers to read me a poem about {topic}",
+                        "get  ancient whispers to read me a haiku",
+                        "get us  ancient whispers to give me a haiku about {topic}",
+                        "give  ancient whispers to tell me a poem about {topic}",
+                        "tell me  ancient whispers to read me a poem",
+                        "show  ancient whispers to read me a haiku about {topic}",
+                        "can you get  ancient whispers to tell me a poem",
+                        "show me  ancient whispers to tell me a poem",
+                        "can you tell me  ancient whispers",
+                        "  Alexa start ancient whispers  ",
+                        "  Alexa open ancient whispers  ",
+                        "  Alexa launch ancient whispers  ",
+                        "  Alexa ask ancient whispers to give me a haiku about {topic}  ",
+                        "  Alexa tell ancient whispers to give me a haiku about {topic}  ",
+                        "  open ancient whispers and tell me a poem about {topic}  ",
+                        "  open ancient whispers and tell me a haiku about {topic}  ",
+                        "  open ancient whispers and tell me a poem  ",
+                        "  open ancient whispers and tell me a haiku  ",
+                        "  open ancient whispers  ",
+                        "  ask ancient whispers to give me a poem about {topic}  ",
+                        "  ask ancient whispers to give me a haiku about {topic}  ",
+                        "  ask ancient whispers to give me a poem  ",
+                        "  ask ancient whispers to give me a haiku  ",
+                        "  Ask Archeo Haiku for a haiku about {topic}  ",
+                        "  Ask Archeo Haiku for a haiku  ",
+                        "  ancient whispers I want a haiku about  ",
+                        "  ancient whispers I want a haiku  ",
+                        "  ancient whispers get me a haiku about {topic}  ",
+                        "  ancient whispers get me a haiku  ",
+                        "  ancient whispers give me a haiku about {topic}  ",
+                        "  ancient whispers give me a haiku  ",
+                        "  Tell ancient whispers to read me a haiku about {topic}  ",
+                        "  Tell ancient whispers to give me a haiku about {topic}  ",
+                        "  Tell ancient whispers to read me a poem about {topic}  ",
+                        "  Tell ancient whispers to give me a poem about {topic}  ",
+                        "  Tell ancient whispers to read me something about {topic}  ",
+                        "  Ask ancient whispers to read me a haiku about {topic}  ",
+                        "  Ask ancient whispers to tell me something about {topic}  ",
+                        "  Ask ancient whispers to read me a poem about {topic}  ",
+                        "  Ask ancient whispers for a haiku about {topic}  ",
+                        "  Ask ancient whispers to read me something about {topic}  ",
+                        "  Open ancient whispers and read me a poem about {topic}  ",
+                        "  Open ancient whispers and give me a poem about {topic}  ",
+                        "  Open ancient whispers and read me a haiku about {topic}  ",
+                        "  Open ancient whispers and give me a haiku about {topic}  ",
+                        "  Tell ancient whispers to read me a haiku   ",
+                        "  Tell ancient whispers to give me a haiku  ",
+                        "  Tell ancient whispers to read me a poem  ",
+                        "  Tell ancient whispers to give me a poem  ",
+                        "  Tell ancient whispers to read me something  ",
+                        "  Ask ancient whispers to read me a haiku  ",
+                        "  Ask ancient whispers to tell me something  ",
+                        "  Ask ancient whispers to read me a poem  ",
+                        "  Ask ancient whispers for a haiku  ",
+                        "  Ask ancient whispers to read me something  ",
+                        "  Open ancient whispers and read me a poem  ",
+                        "  Open ancient whispers and give me a poem  ",
+                        "  Open ancient whispers and read me a haiku  ",
+                        "  Open ancient whispers and give me a haiku"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "Topic",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "the_Near_East",
+                                "synonyms": [
+                                    "the_ancient_near_east"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Greece",
+                                "synonyms": [
+                                    "the_ancient_greeks",
+                                    "ancient_greece",
+                                    "the_greeks",
+                                    "greeks"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Egypt",
+                                "synonyms": [
+                                    "ancient_egypt",
+                                    "egyptians",
+                                    "the_ancient_egyptians",
+                                    "the_egyptians"
+                                ]
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "Rome",
+                                "synonyms": [
+                                    "the_ancient_romans",
+                                    "the_romans",
+                                    "romans",
+                                    "ancient_rome"
+                                ]
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
