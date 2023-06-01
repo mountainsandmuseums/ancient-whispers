@@ -92,36 +92,15 @@ const HELP_MESSAGE = 'You can ask for a haiku, or ask specifically about Greece,
 const HELP_REPROMPT = 'What can I help you with?';
 const STOP_MESSAGE = 'Goodbye!';
 
-/*const greece = [
-  'Bull of Marathon, Wild and raging, tamed by strength, Theseus shows his might.',
-  'Periphetes, cruel, Club wielded with brutal force, Theseus brings him down.',
-  'Tales of bravery, Amazons\' legacy told, Inspiring generations.',
-  'Amazon queens lead, Wisdom guides their noble realm, Eternal glory.',
-];*/
-
 const greece = require('./greece') 
 
-/*const rome = [
-  'Rome\'s mighty embrace, Colosseum\'s grandeur stands, Empire\'s eternal.',
-  'Roman aqueducts, Engineering marvels stand, Water\'s ancient flow.',
-  'Julia, imperial, Raised to bear Rome\'s burden, Her life, a mosaic.',
-  'Julia\'s light fades, Shadowed by her family\'s strife, Tragic princess\' tale.',
-];*/
-
 const rome = require('./rome') 
-
-/*const egypt = [
-  'Kingdom\'s collapse, Regional rulers emerge, Chaos and rebirth.',
-  'Hyksos invaders, Foreign rule disrupts Egypt, Native pride endures.',
-  'Amarna\'s embrace, Akhenaten\'s vision blooms, Sun\'s radiant grace.',
-];*/
 
 const egypt = require('./egypt') 
 
 const neareast = require('./neareast') 
 
 const all = require('./haiku')
-
 
 const skillBuilder = Alexa.SkillBuilders.custom();
 
