@@ -1,6 +1,8 @@
 # ancient-whispers
 Ancient Whispers is an Alexa skill developed as a part of the CareerFoundry Voice User Interface Design Course. The user can request a haiku and the skill will provide one from it's library. The user may also specify thay they would like a haiku about Ancient Greece, Rome, Egypt, or the Near East and the skill will pull a haiku about that topic.
+
 Detailed Description:
+
 Introducing the Ancient Whispers skill, a captivating journey into the realms of classics, archaeology, and ancient civilizations. Immerse yourself in the beauty of this concise poetic form as you explore the rich heritage of Greece, Rome, Egypt, and beyond. With over hundreds of haiku at your fingertips, this skill offers a unique and enchanting experience.
 
 Delve into the ancient world with each haiku, capturing the essence of a specific era, civilization, or mythological tale. Let the words transport you to a time when gods and mortals intermingled, when grand empires rose and fell, and when cultural achievements left indelible marks on human history.
